@@ -16,17 +16,46 @@
     box-sizing: border-box;
 }
 
+
 body, html {
-    background-color: #5f2c82;
+
     height: 100vh;
     width: 100vw;
 }
+
 
 main{
     position: relative;
     width: 100vw;
     height: 100vh;
+    z-index: 5;
+
 }
+
+
+.slid2 img{
+    
+    width: 100%;
+    background-position: center;
+    
+}
+
+.slid1 img{
+    
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.slid3 img{
+    
+    width: 100%;
+    background-position: center;
+    
+}
+
+
+
 
  section#login{
     position: absolute;
@@ -51,6 +80,7 @@ main{
     background-size: cover;
     background-position: center center;
     height: 200px;
+    
 }
 
  section#login > div#formulario{
@@ -153,3 +183,16 @@ form > a.botao{
 #email{
     position: absolute;
 }
+
+/* açõa para si criar uma bara de rolagem */
+
+::-webkit-scrollbar{
+    width: 20px;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 10px;
+}
+

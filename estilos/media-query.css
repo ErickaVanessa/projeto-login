@@ -12,7 +12,7 @@ Grandes telas: acima de 1200px
 @media screen and (min-width:768px) and (max-width:992px){ /* CONFIGURAÇÃO PARA TABLET */
 
     body{
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-image: url(../imagens/img3.avif);
     }
 
     section#login{
@@ -37,7 +37,10 @@ Grandes telas: acima de 1200px
 @media screen and (min-width:992px){
 
     body{
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-image: url(../imagens/img2.avif);
+        background-position: center center;
+        width: 100%;
+        
     }
 
     section#login{
@@ -66,8 +69,4 @@ Grandes telas: acima de 1200px
         margin: 20px 0px;
     }
 }
-
-
-
-
 
